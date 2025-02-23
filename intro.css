@@ -1,0 +1,22 @@
+.intro {
+  text-align: center;
+  margin-top: 18rem;
+  color: #FFD95A;
+  text-shadow: 15px 5px 20px rgba(0, 0, 0, 0.7);
+}
+
+p {
+  font-size: 80px;
+  font-weight: 800;
+}
+
+@media (max-width: 768px) {
+  .intro {
+    margin-top: 15rem;
+  }
+
+  p {
+    font-size: 43px;
+    font-weight: 800;
+  }
+}
